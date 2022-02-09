@@ -4,9 +4,9 @@ require('dotenv').config({
 
 module.exports = {
     siteMetadata: {
-        title: `Rumi Deb`,
+        title: `Dummy Website`,
         siteUrl: `https://www.gatsbyjs.com`,
-        description: `Blazing fast modern site generator for React`,
+        description: `Blazing fast modern site generator By Gatsby and Contentful`,
     },
 
     plugins: [
@@ -23,7 +23,7 @@ module.exports = {
         {
             resolve: `gatsby-source-contentful`,
             options: {
-                spaceId: `fros0wppf970`,
+                spaceId: `sgp2xqf9azmr`,
                 accessToken: process.env.ACCESS_TOKEN,
             },
         },

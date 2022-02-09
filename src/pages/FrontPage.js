@@ -34,7 +34,6 @@ const FrontPage = () => {
             <div className="col-md-6 align-self-center">
               <article>
                 <h1 className="display-3">{banner.bannerText}</h1>
-                <h2 className="display-5 mb-5">Graphic Designer</h2>
                 <p>{banner.bannerDescription.bannerDescription}</p>
               </article>
             </div>
@@ -46,10 +45,6 @@ const FrontPage = () => {
           </div>
         </div>
       </section>
-
-
-
-
     </>
   )
 }
